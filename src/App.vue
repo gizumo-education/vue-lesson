@@ -34,8 +34,4 @@ export default {
   height: 2px;
   background-color: #03a9f4;
 }
-
-.green {
-  color: green;
-}
 </style>
