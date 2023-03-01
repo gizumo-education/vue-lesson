@@ -1,34 +1,13 @@
 <template>
-  <div class="main">
-    <section class="section">
-      <h2 class="section_name">dataについて</h2>
-      <hr class="divider">
-      <p>{{ message }}</p>
-    </section>
-
-    <section class="section">
-      <h2 class="section_name">ディレクティブについて</h2>
-      <hr class="divider">
-
-      <h3>v-html</h3>
-      <p v-html="messageHTML"></p>
-
-      <h3>v-bind</h3>
-      <p v-bind:class="{ green: is_green }">Hello Vue!</p>
-    </section>
+  <div>
+    <h1>Hello Vue!</h1>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      message: 'Hello Vue!',
-      messageHTML: '<span style="color: red;">Hello Vue!</style>',
-      is_green: true,
-    };
-  }
-}
+
+};
 </script>
 
 <style lang="scss">
